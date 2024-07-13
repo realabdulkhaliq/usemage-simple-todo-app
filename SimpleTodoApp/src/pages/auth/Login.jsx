@@ -11,15 +11,18 @@ export default function Login() {
             <LoginForm
               appearance={{
                 colors: {
-                  brand: 'var(--auth-form-brand)',
-                  brandAccent: 'var(--auth-form-brand-accent)',
-                  submitButtonText: 'var(--auth-form-submit-button-text-color)',
-                }
+                  brand: "var(--auth-form-brand)",
+                  brandAccent: "var(--auth-form-brand-accent)",
+                  submitButtonText: "var(--auth-form-submit-button-text-color)",
+                },
               }}
             />
-            <div className="mt-4 text-center">
+            <div className="mt-5 text-center">
               If you don't have an account go to{" "}
-              <Link to="/signup" className="text-primary-500 hover:text-primary-800 underline">
+              <Link
+                to="/signup"
+                className="text-primary-500 hover:text-primary-800 underline"
+              >
                 sign up
               </Link>
               .
